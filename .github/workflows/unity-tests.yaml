@@ -39,3 +39,5 @@ jobs:
 
       - name: Unity - Test runner
         uses: game-ci/unity-test-runner@v4
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
